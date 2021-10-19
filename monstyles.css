@@ -1,0 +1,42 @@
+﻿/* Navigation */
+#tab-nav {
+	/* Suppression des marges internes et externes */
+	margin: 0px ;
+	padding: 0px ;
+	/* Décalage pour masquer la bordure du contenu */
+	position: relative ;
+	bottom: -1px ;
+}
+#tab-nav li {
+	/* Affichage des éléments du menu côte à côte */
+	display: inline-block ;
+}
+/* Aspect des onglets inactifs (par défaut) */
+#tab-nav a {
+	display: block ;
+	border: 1px solid #cccccc ;
+	border-width: 1px 1px 0 1px ;
+	padding: 10px 5px ;
+	border-radius: 5px 5px 0 0 ;
+	background-color: #cccccc ;
+}
+/* Effet de survol sur les onglets */
+#tab-nav a:hover {
+	background-color: #ffffff ;
+}
+/* Aspect des onglets actifs */
+#tab-nav .tab-nav-active {
+	background-color: #ffffff ;
+}
+
+
+/* Contenu des onglets */
+.tab {
+	/* Masquage des onglets*/
+     display: none ;
+     border: 1px solid #cccccc ;
+}
+/* Affichage du contenu actif */
+.tab-active {
+     display: block ;
+}

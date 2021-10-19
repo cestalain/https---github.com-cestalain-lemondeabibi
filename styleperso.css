@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+html{}
+body{}
+div{}
+p{}
+form{}
+page{
+	background:green;
+	background-color:blue;
+}
+img{
+	width:100%;
+	height:100%;
+	margin:0px;
+
+}
+div ul .col-md-4.nopadding-nomargin{
+background-color:blue;}
+ h3.monh3{
+font-size: 18px;	 
+text-align:center;	
+}
+div.col-md-4.nopadding-nomargin{
+	margin:0px;
+	padding:2px;
+	border:2px red;
+	
+}
+#content {
+	background: #ffebf2;
+	border-top-width: 0;
+	max-width: 1100px;/**/
+}
+#page {
+	display: block;
+	margin: .9em auto;
+	max-width: 1100px;
+	padding: 0 20px;
+}
+#branding {
+	background: url("themes/bouquet/images/pink-header.png") no-repeat #fff !important;
+	border-radius: 4px;
+	box-shadow:
+		5px 5px 5px -5px rgba(0, 0, 0, 0.5),
+		-5px 0 5px -5px rgba(0, 0, 0, 0.5);
+	min-height: 180px;
+	margin: .9em 0;
+}
+.t1{
+	font-size: 24px;
+	text-align:center;
+	color:white;
+}
+.t2{
+	font-size: 18px;
+	text-align:center;
+	color:white;	
+}
